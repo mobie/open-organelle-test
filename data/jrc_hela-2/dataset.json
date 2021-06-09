@@ -1,0 +1,57 @@
+{
+  "is2D": false,
+  "sources": {
+    "fibsem-uint16": {
+      "image": {
+        "imageData": {
+          "openOrganelle.s3": {
+            "s3Address": "https://janelia-cosem.s3.amazonaws.com/jrc_hela-2/jrc_hela-2.n5/em/fibsem-uint16"
+          }
+        }
+      }
+    }
+  },
+  "timepoints": 1,
+  "views": {
+    "default": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "fibsem-uint16",
+            "opacity": 1.0,
+            "sources": [
+              "fibsem-uint16"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    },
+    "fibsem-uint16": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "fibsem-uint16",
+            "opacity": 1.0,
+            "sources": [
+              "fibsem-uint16"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "em"
+    }
+  }
+}

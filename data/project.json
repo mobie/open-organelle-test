@@ -1,0 +1,10 @@
+{
+  "datasets": [
+    "jrc_hela-2"
+  ],
+  "defaultDataset": "jrc_hela-2",
+  "imageDataFormats": [
+    "openOrganelle.s3"
+  ],
+  "specVersion": "0.2.0"
+}
