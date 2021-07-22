@@ -1,6 +1,15 @@
 {
   "is2D": false,
   "sources": {
+    "endo_pred": {
+      "image": {
+        "imageData": {
+          "openOrganelle.s3": {
+            "s3Address": "https://janelia-cosem.s3.amazonaws.com/jrc_hela-2/jrc_hela-2.n5/labels/endo_pred"
+          }
+        }
+      }
+    },
     "fibsem-uint16": {
       "image": {
         "imageData": {
@@ -32,6 +41,26 @@
         }
       ],
       "uiSelectionGroup": "em"
+    },
+    "endo_pred": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "endo_pred",
+            "opacity": 1.0,
+            "sources": [
+              "endo_pred"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "labels"
     },
     "fibsem-uint16": {
       "isExclusive": false,
