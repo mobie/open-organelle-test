@@ -29,8 +29,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              28490,
-              60120
+              28490.0,
+              40000.0
             ],
             "name": "fibsem-uint16",
             "opacity": 1.0,
@@ -69,8 +69,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              28490,
-              60120
+              28490.0,
+              40000.0
             ],
             "name": "fibsem-uint16",
             "opacity": 1.0,
@@ -81,6 +81,60 @@
         }
       ],
       "uiSelectionGroup": "em"
+    },
+    "fibsem_with_endo_membranes": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "r=255,g=255,b=255,a=255",
+            "contrastLimits": [
+              28490.0,
+              40000.0
+            ],
+            "name": "fibsem-uint16",
+            "opacity": 1.0,
+            "showImagesIn3d": false,
+            "sources": [
+              "fibsem-uint16"
+            ]
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "r=0,g=255,b=0,a=255",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "endo_pred",
+            "opacity": 0.5679,
+            "showImagesIn3d": false,
+            "sources": [
+              "endo_pred"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [],
+      "uiSelectionGroup": "bookmarks",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.045373993417779944,
+          0.0,
+          0.0,
+          -1.4282226711335657,
+          0.0,
+          0.045373993417779944,
+          0.0,
+          -0.14688922889137915,
+          0.0,
+          0.0,
+          0.045373993417779944,
+          -0.5798627791678688
+        ],
+        "timepoint": 0
+      }
     }
   }
 }
