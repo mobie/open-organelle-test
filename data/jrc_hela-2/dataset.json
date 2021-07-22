@@ -29,8 +29,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              2849,
-              6012
+              28490,
+              60120
             ],
             "name": "fibsem-uint16",
             "opacity": 1.0,
@@ -40,7 +40,7 @@
           }
         }
       ],
-      "uiSelectionGroup": "em"
+      "uiSelectionGroup": "bookmarks"
     },
     "endo_pred": {
       "isExclusive": false,
@@ -53,7 +53,7 @@
               255.0
             ],
             "name": "endo_pred",
-            "opacity": 1.0,
+            "opacity": 0.75,
             "sources": [
               "endo_pred"
             ]
@@ -69,8 +69,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              2849,
-              6012
+              28490,
+              60120
             ],
             "name": "fibsem-uint16",
             "opacity": 1.0,
