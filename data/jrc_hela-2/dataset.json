@@ -29,7 +29,7 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              28490.0,
+              20000.0,
               40000.0
             ],
             "name": "fibsem-uint16",
@@ -69,7 +69,7 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              28490.0,
+              20000.0,
               40000.0
             ],
             "name": "fibsem-uint16",
@@ -89,7 +89,7 @@
           "imageDisplay": {
             "color": "r=255,g=255,b=255,a=255",
             "contrastLimits": [
-              28490.0,
+              20000.0,
               40000.0
             ],
             "name": "fibsem-uint16",
