@@ -1,11 +1,14 @@
-from mobie.open_organelle import add_open_organelle_dataset
+import mobie
 
 
 def create_hela_project():
     root = './data'
     address = 'https://janelia-cosem.s3.amazonaws.com/jrc_hela-2/jrc_hela-2.n5'
-    sources = ['em/fibsem-uint16']
-    add_open_organelle_dataset(address, root, sources)
+
+    # add the raw data
+    clims = [2849, 6012]  # determined qualitatively
+    raw_view = mobie.metadata.get_default_view("image", "fibsem-uint16", contrastLimits=clims)
+    mobie.add_open_organelle_data(address, root, source_name="em/fibsem-uint16", view=raw_view, overwrite=True)
 
 
 if __name__ == '__main__':

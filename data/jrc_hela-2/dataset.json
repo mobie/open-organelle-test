@@ -40,8 +40,8 @@
           "imageDisplay": {
             "color": "white",
             "contrastLimits": [
-              0.0,
-              255.0
+              2849,
+              6012
             ],
             "name": "fibsem-uint16",
             "opacity": 1.0,
