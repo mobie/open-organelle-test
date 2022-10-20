@@ -20,7 +20,6 @@
       }
     }
   },
-  "timepoints": 1,
   "views": {
     "default": {
       "isExclusive": false,
